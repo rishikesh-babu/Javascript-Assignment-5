@@ -61,8 +61,6 @@
                 document.querySelector('.container').innerHTML = ''
                 result.forEach(country => {
 
-                    console.log(country.name.common)
-
                     const countrybox = document.createElement('div')
                     const countryname = document.createElement('h2')
                     const imagebox = document.createElement('img')
